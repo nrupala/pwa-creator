@@ -1,0 +1,9 @@
+Zerok Container (pwa-creator)
+
+Owned by Nrupal Akolkar · Built with Muse by Meta
+
+Zerok is a zero-trust, zero-knowledge encrypted container for files and blobs.
+Encryption happens on the client device; the storage server never sees keys,
+passwords, or plaintext.
+
+See LICENSE for the license terms.
