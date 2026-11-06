@@ -8,9 +8,6 @@ buildscript {
     }
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
+// Repositories are declared centrally in settings.gradle
+// (dependencyResolutionManagement, FAIL_ON_PROJECT_REPOS, google()+mavenCentral()).
+// Project-level repositories must not be added here - that mode fails the build.
