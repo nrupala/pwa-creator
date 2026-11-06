@@ -1,5 +1,5 @@
 import blake3
-from .crypto import encrypt, decrypt
+from .crpyto import encrypt, decrypt
 
 def blob_id(ciphertext: bytes) -> str:
     return blake3.blake3(ciphertext).hexdigest()
